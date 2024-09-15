@@ -7,8 +7,8 @@ Player::Player() {
   spriteHeight = spriteWidth;
   mBox.w = spriteWidth;
   mBox.h = mBox.w;
-  speedX = 3;
-  speedY = 3;
+  speedX = 2;
+  speedY = 2;
   gTexture = &gPlayerTexture;
 }
 
